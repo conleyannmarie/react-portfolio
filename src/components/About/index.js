@@ -17,6 +17,3 @@ function About() {
 }
 
 export default About
-
-import React from 'react';
-
