@@ -10,7 +10,7 @@ function App() {
       name: 'commercial',
       description: 'Photos of grocery stores, food trucks, and other commercial projects',
     },
-    { name: 'portraits', description: 'Portraits of people in my life' },
+    { name: 'BookFinder', description: 'First project I collaborated on with the people in my cohort' , },
     { name: 'food', description: 'Delicious delicacies' },
     { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
   ]);

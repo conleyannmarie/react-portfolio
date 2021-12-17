@@ -38,25 +38,25 @@ const PhotoList = ({ category }) => {
     },
     {
       name: 'Cat green eyes',
-      category: 'portraits',
+      category: 'BookFinder',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Green parrot',
-      category: 'portraits',
+      category: 'BookFinder',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Yellow macaw',
-      category: 'portraits',
+      category: 'BookFinder',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
     {
       name: 'Pug smile',
-      category: 'portraits',
+      category: 'BookFinder',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
     },
