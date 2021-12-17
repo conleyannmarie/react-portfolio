@@ -1,43 +1,45 @@
-import React, { useState } from 'react';
-import Nav from './components/Nav';
-import About from './components/About';
-import Gallery from './components/Gallery';
-import ContactForm from './components/Contact';
+import React, { useState } from "react";
+import "./App.css";
+
+import About from "./components/About";
+import ContactForm from "./components/Contact";
+import Resume from "./components/Resume";
+import Nav from "./components/Nav";
+import Portfolio from "./components/Portfolio";
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'BookFinder', description: 'First project I collaborated on with the people in my cohort' , },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
+  const [presentPage, setPresentPage] = useState("About");
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  function pageNew() {
+    switch (presentPage) {
+      case "Contact":
+        return <ContactForm />;
 
-  const [contactSelected, setContactSelected] = useState(false);
+      case "Resume":
+        return <Resume />;
+
+      case "Portfolio":
+        return <Portfolio />;
+
+      default:
+        return <About />;
+    }
+  }
 
   return (
     <div>
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+        presentPage={presentPage}
+        setPresentPage={setPresentPage}
       ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Gallery currentCategory={currentCategory}></Gallery>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
+      <div>
+        {
+
+        }
+        <div>
+          {newPage(presentPage)}
+        </div>
+      </div>
     </div>
   );
 }
