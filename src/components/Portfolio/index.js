@@ -11,50 +11,50 @@ function Portfolio() {
       <section className="portfolio">
           <h2>Portfolio</h2>
           <div className='image'>
-              <img className="image__img" src={ethicalMedia}></img>
-              <div className="image_overlay">
+              <img className="image_img" src={ethicalMedia}></img>
+              <div className="image_top">
                   <a href="https://quiet-journey-83566.herokuapp.com//">
-                      <div className="img_title">Live Site</div></a>
+                      <div className="project_img">Project Site</div></a>
                   <a href="https://github.com/conleyannmarie/ethical-media">
-                      <img className="image_description" src={GitHub} />
+                      <img className="github" src={GitHub} />
                   </a>
               </div>
           </div>
           <div className='image'>
-              <img className="image__img" src={bookFinder} ></img>
-              <div className="image_overlay">
+              <img className="image_img" src={bookFinder} ></img>
+              <div className="image_top">
                   <a href="https://conleyannmarie.github.io/book-finder/">
-                      <div className="img_title">Live Site</div></a>
+                      <div className="project_img">Project Site</div></a>
                   <a href="https://github.com/conleyannmarie/book-finder">
-                      <img className="image_description" src={GitHub} />
+                      <img className="github" src={GitHub} />
                   </a>
               </div>
           </div>
           <div className='image'>
-              <img className="image__img" src={readmeGen} ></img>
-              <div className="image_overlay">
+              <img className="image_img" src={readmeGen} ></img>
+              <div className="image_top">
                   <a href="https://github.com/conleyannmarie/readme-gen">
-                      <img className="image_description" src={GitHub} />
+                      <img className="github" src={GitHub} />
                   </a>
               </div>
           </div>
           <div className='image'>
-              <img className="image__img" src={weatherDashboard} ></img>
-              <div className="image_overlay">
+              <img className="image_img" src={weatherDashboard} ></img>
+              <div className="image_top">
                   <a href="https://conleyannmarie.github.io/weather-api/">
-                      <div className="img_title">Live Site</div></a>
+                      <div className="project_img">Project Site</div></a>
                   <a href="https://github.com/conleyannmarie/weather-api">
-                      <img className="image_description" src={GitHub} />
+                      <img className="github" src={GitHub} />
                   </a>
               </div>
           </div>
           <div className='image'>
-              <img className="image__img" src={workDayScheduler} ></img>
-              <div className="image_overlay">
+              <img className="image_img" src={workDayScheduler} ></img>
+              <div className="image_top">
                   <a href="https://github.com/conleyannmarie/work-scheduler/">
-                      <div className="img_title">Live Site</div></a>
+                      <div className="project_img">Project Site</div></a>
                   <a href="https://conleyannmarie.github.io/work-scheduler/">
-                      <img className="image_description" src={GitHub} />
+                      <img className="github" src={GitHub} />
                   </a>
               </div>
           </div>
